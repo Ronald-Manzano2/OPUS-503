@@ -1,0 +1,288 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*OPUS*/
+
+
+
+
+/*Sobre*/
+
+.contenedor-sobre{
+	padding: 90px ;
+	 background: #f8f6f4;
+}
+
+.sobre-extra{
+	display: flex;
+	background: #ffffff;
+    padding: 70px 0;
+    max-width: 1400px;
+   width: 100%;
+    margin: auto;
+    overflow: hidden;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.sobre-extra img{
+	width: 35%;
+	height: 280px;
+}
+
+.sobre-info{
+	width: 48%;
+}
+
+.sobre-info h2{
+	font-family: 'Libre Baskerville', sans-serif;
+	font-size: 45px;
+	color: #9c776e;
+}
+
+.sobre-info p{
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 15px;
+	font-size: 20px;
+}
+
+/* Integrantes */
+
+.contenedor-integrantes{
+	padding: 100px 0;
+	background: #262626;
+}
+
+.contenedor-integrantes .titulo{
+	font-family: 'Libre Baskerville', sans-serif;
+    color: #9c776e;	
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: lighter;
+}
+
+.cantantes{
+	padding: 20px 0;
+	display: flex;
+	background: #262626;
+    justify-content: space-evenly;
+}
+
+.cantante{
+	background: #fbfbfb;
+    display: flex;
+    width: 45%;
+    height: 520px;
+    align-items: center;
+    color: #262626;	
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+}
+
+.cantante h2{
+	font-family: 'Libre Baskerville', sans-serif;
+
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.cantante h4{
+	margin-top: 5px;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.cantante p{
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 15px;
+	font-size: 15px;
+	text-align: justify;
+}
+
+.cantante img{
+	width: 30%;
+	height: 280px;
+}
+
+.cantante .info{
+	width: 55%;
+}
+
+.integrantes{
+	display: flex;
+	flex-direction: column;
+}
+.cantantes-dos{
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+}
+
+
+/*Albumes*/
+
+.albumes-contenedor{
+	background: rgba(23,23,23,255);	
+	padding: 120px 0;  
+}
+
+.albumes-contenedor .titulo{
+	text-align: center;
+	font-family: 'Libre Baskerville', sans-serif;
+	color: #9c776e;	
+	font-size: 40px;
+	padding: 40px 0 80px 0;
+}
+
+.albumes{
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.albumes h3{
+	color: #9c776e;
+	font-size: 20px;
+}
+
+.album{
+	width: 35%;
+	
+}
+
+.album img{
+	width: 25em;
+    height: 25em;
+}
+
+.spotify{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.spotify h3{
+	font-family: 'Libre Baskerville', sans-serif;
+	margin-top: 15px;
+	font-size: 28px;
+}
+
+.spotify a{
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	cursor: pointer;
+	margin-top: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/*Responsive*/
+
+@media screen and (max-width: 960px){
+
+		.sobre-extra{
+			flex-direction: column-reverse;
+		}
+
+		.sobre-info{
+			width: 80%;
+		}
+
+		.sobre-info p{
+			font-size: 25px;
+			margin-bottom: 50px;
+		}
+
+		.sobre-extra img{
+			width: 70%;
+		}
+
+
+		.cantantes{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.cantante{
+			width: 80%;
+			height: 520px;
+			
+		}
+
+		.cantantes .cantante{
+			margin-top: 40px;
+		}
+
+		.albumes{
+			width: 100%;
+		}	
+
+		.album{
+			width: 40%;
+		}
+
+		.album img{
+		width: 18em;
+    	height: 18em;
+		}
+
+		
+}
+
+@media screen and (max-width: 670px){
+		.contenedor-sobre{
+		padding: 90px 0;
+		}
+
+		.sobre-info p{
+			font-size: 15px;
+		}
+
+		.cantante{
+			display: flex;
+			height: 680px;
+			width: 90%;
+			flex-direction: column-reverse;
+		}
+
+		.cantante .info {
+			width: 80%;
+		}
+
+		.cantante img{
+		width: 38%;
+		height: 200px;
+		}
+
+		.albumes{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.album{
+			align-items: center;
+			margin: 40px;
+			width: 99%;
+		}
+
+		.album img{
+			width: 24em;
+    		height: 28em;
+		}
+
+		
+}
+
+	

@@ -1,0 +1,78 @@
+/*Footer*/
+
+footer{
+
+	border-top: solid white 1px;
+	width: 100%;
+	background: rgba(23,23,23,255);	
+}
+
+footer .contenido1{
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	
+	display: flex;
+	 justify-content: space-between;
+	padding: 45px 25px 0 25px;
+}
+
+footer .contenido1 a{
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+
+footer .contenido1 .infos .redes{
+	display: flex;
+	justify-content: space-between;
+	font-size: 25px;
+	
+}
+
+footer .contenido1 .infos .redes a{
+	margin: 15px 0;
+}
+
+footer .contenido1 .infos h2{
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
+	 font-weight: lighter;
+	 
+}
+
+
+footer .contenido1 .infos .conocenos{
+	font-family: 'Libre Baskerville', sans-serif;
+	color: #9c776e;	
+	font-size: 25px;
+}
+
+footer .contenido2 h3{
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
+	 font-weight: lighter;
+	 padding:20px 180px;
+}
+
+
+@media screen and (max-width: 960px){
+	footer .contenido1{
+			padding: 75px 25px;
+		}
+
+		footer .contenido2 h3{
+			padding: 35px 50px;
+		}
+
+	@media screen and (max-width: 670px){
+		footer .contenido1  .conocenos {
+			font-size: 5px;
+		}
+
+		footer .contenido2 h3{
+			
+			font-size: 8px;
+		}
+	}
+}
