@@ -1,0 +1,409 @@
+.historia{
+	padding: 90px ;
+	 background: #f8f6f4;
+}
+
+.biografia{
+	display: flex;
+	background: #ffffff;
+    padding: 70px 0;
+    max-width: 1400px;
+   width: 100%;
+    margin: auto;
+    overflow: hidden;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.biografia img{
+	width: 35%;
+	height: 280px;
+}
+
+.informacion{
+	width: 48%;
+}
+
+.informacion h2{
+	font-family: 'Libre Baskerville', sans-serif;
+	font-size:35px;
+	color: #9c776e;
+}
+
+.informacion p{
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 15px;
+	font-size: 20px;
+    text-align: justify;
+}
+
+.premios{
+	padding: 90px ;
+	 background: #f8f6f4;
+}
+
+.recibido{
+	display: flex;
+	background: #ffffff;
+    padding: 70px 0;
+    max-width: 1400px;
+   width: 100%;
+    margin: auto;
+    overflow: hidden;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.recibido img{
+	width: 35%;
+	height: 280px;
+}
+
+.asunto{
+	width: 48%;
+}
+
+.asunto h1{
+	font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+	font-size:45px;
+	color: #9c776e;
+}
+
+.asunto h2{
+	font-family: 'Libre Baskerville', sans-serif;
+	font-size:35px;
+	color: #9c776e;
+}
+
+.asunto p{
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 15px;
+	font-size: 20px;
+    text-align: justify;
+}
+
+.recibido-1{
+	display: flex;
+	background: #ffffff;
+    padding: 70px 0;
+    max-width: 1400px;
+   width: 100%;
+    margin: auto;
+    overflow: hidden;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.recibido-1 img{
+	width: 35%;
+	height: 280px;
+}
+
+.asunto-1{
+	width: 48%;
+}
+
+.asunto-1 h1{
+	font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+	font-size:45px;
+	color: #9c776e;
+}
+
+.asunto-1 h2{
+	font-family: 'Libre Baskerville', sans-serif;
+	font-size:35px;
+	color: #9c776e;
+}
+
+.asunto-1 p{
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 15px;
+	font-size: 20px;
+    text-align: justify;
+}
+
+.Videos{
+    display: flex;
+	background: #ffffff;
+    padding: 70px 0;
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    max-height: 700px;
+    margin: auto;
+    overflow: hidden;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+@media screen and (max-width: 960px){
+    .biografia{
+        flex-direction: column-reverse;
+    }
+
+    .informacion{
+        width: 80%;
+    }
+
+    .informacion h2{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .informacion p{
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+    .biografia img{
+        width: 70%;
+    }
+
+    .recibido{
+        flex-direction: column-reverse;
+    }
+
+    .asunto{
+        width: 80%;
+    }
+
+    .informacion h2{
+        font-size: 32px;
+    }
+    
+    .asunto h2{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .asunto h1{
+        font-size: 34px;
+    }
+
+    .asunto p{
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+    .recibido img{
+        width: 70%;
+    }
+
+    .recibido-1{
+        flex-direction: column-reverse;
+    }
+
+    .asunto-1{
+        width: 80%;
+    }
+
+    .asunto-1 h2{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .asunto-1 h1{
+        font-size: 34px;
+    }
+
+    .asunto-1 p{
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+    .recibido-1 img{
+        width: 70%;
+    }
+
+    .Videos{
+        flex-direction: column-reverse;
+        padding: 20% 0;
+    }
+
+    .Videos iframe{
+        width: 170%;
+        margin: -40%;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .biografia{
+        flex-direction: column-reverse;
+    }
+
+    .informacion{
+        width: 80%;
+    }
+
+    .informacion p{
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+
+    .informacion h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .biografia img{
+        width: 80%;
+    }
+
+    .recibido{
+        flex-direction: column-reverse;
+    }
+
+    .asunto{
+        width: 80%;
+    }
+
+    .asunto p{
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+
+    .asunto h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .asunto h1{
+        font-size: 34px;
+    }
+
+    .recibido img{
+        width: 80%;
+    }
+
+    .recibido-1{
+        flex-direction: column-reverse;
+    }
+
+    .asunto-1{
+        width: 80%;
+    }
+
+    .asunto-1 p{
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+
+    .asunto-1 h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .asunto-1 h1{
+        font-size: 34px;
+    }
+
+    .recibido-1 img{
+        width: 80%;
+    }
+
+    .Videos{
+        flex-direction: column-reverse;
+    }
+
+    .Videos iframe{
+        width: 150%;
+        margin: -25%;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+    .historia{
+        padding: 0;
+        margin-top: 30%;
+    }
+
+    .biografia{
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+    .informacion{
+        width: 80%;
+    }
+
+    .informacion p{
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .informacion h2{
+        font-size: 24px;
+    }
+
+    .biografia img{
+        width: 80%;
+    }
+
+    .recibido{
+        flex-direction: column-reverse;
+        padding: 30% 0;
+    }
+
+    .asunto{
+        width: 80%;
+    }
+
+    .asunto p{
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .asunto h2{
+        font-size: 20px;
+    }
+
+    .asunto h1{
+        font-size: 26px;
+    }
+
+    .recibido img{
+        width: 80%;
+    }
+
+    .recibido-1{
+        flex-direction: column-reverse;
+        padding: 10% 0;
+    }
+
+    .asunto-1{
+        width: 80%;
+    }
+
+    .asunto-1 p{
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    .asunto-1 h2{
+        font-size: 24px;
+    }
+
+    .asunto-1 h1{
+        font-size: 30px;
+    }
+
+    .recibido-1 img{
+        width: 80%;
+    }
+
+    .Videos{
+        flex-direction: column-reverse;
+        padding: 30% 0;
+    }
+
+    .Videos iframe{
+        width: 100%;
+        margin: 0%;
+    }
+}
