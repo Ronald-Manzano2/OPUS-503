@@ -43,7 +43,7 @@
 	color: #9c776e;
 }
 
-.sobre-info p{
+.sobre-info div{
 	font-family: 'Josefin Sans', sans-serif;
 	margin-top: 15px;
 	font-size: 20px;
@@ -185,6 +185,10 @@
 	font-family: 'Josefin Sans', sans-serif;
 }
 
+
+.spotify a:hover{
+	color: #9c776e;	
+}
 
 /*Responsive*/
 
