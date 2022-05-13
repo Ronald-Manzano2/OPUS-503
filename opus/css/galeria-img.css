@@ -39,12 +39,12 @@ body{
 
 .caja-imagen:hover{
     transform: scale(1.1);
-    transition: all 2s ease-in-out;
+    transition: 1.5s;
 }
 
 .caja-imagen:nth-child(4):hover{
     transform: scale(1.1);
-    transition: all 2s ease-in-out;
+    transition: 1.5s;
 }
 
 .caja-imagen:nth-child(2){
@@ -186,9 +186,8 @@ body{
     .caja-imagen:hover{
         margin-top: 5em;
         margin-bottom: 5em;
-        transform: scale(1.40);
-        transition: all 2s ease-in-out;
-        z-index: 10;
+        transform: scale(1.1);
+        transition: all 1.5s;
     }
 
 }
