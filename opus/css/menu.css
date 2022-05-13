@@ -124,12 +124,12 @@ overflow: hidden;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin: 80px 0;
+		margin: 45px 0;
 		line-height: 30px;
 	}
 
 	nav ul li a{
-		font-size: 25px;
+		font-size: 18px;
 	}
 
 	#check:checked ~ ul{
