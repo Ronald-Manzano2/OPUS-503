@@ -104,6 +104,10 @@ h1{
     margin: 0;
     margin: 1%;
     padding: 2% 0;
+    width:20%;
+    height:auto;
+    border:none;
+    overflow:hidden;
 }
 
 .noticias .asid aside div a{
