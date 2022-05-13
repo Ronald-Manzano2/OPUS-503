@@ -40,16 +40,11 @@ body{
 .caja-imagen:hover{
     transform: scale(1.1);
     transition: all 2s ease-in-out;
-    z-index: 10;
 }
 
 .caja-imagen:nth-child(4):hover{
-    margin-top: 5em;
-    margin-bottom: 5em;
     transform: scale(1.1);
     transition: all 2s ease-in-out;
-    z-index: 10;
-    margin-bottom: 0.5em; 
 }
 
 .caja-imagen:nth-child(2){
